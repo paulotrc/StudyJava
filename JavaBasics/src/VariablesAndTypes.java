@@ -38,7 +38,7 @@ public class VariablesAndTypes {
         System.out.println(oneBoolean);
 
 
-        //Object valiables
+        //Object variables
         Byte otherOneByte = 0;
         Short otherOneShort = 01;
         Integer otherOneInt = 1234;
