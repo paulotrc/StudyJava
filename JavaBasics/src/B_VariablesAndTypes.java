@@ -8,12 +8,12 @@
 /**
  * Class to demonstrate the about Variables and Types in Java
  */
-public class VariablesAndTypes {
+public class B_VariablesAndTypes {
 
     /**
      * Create a main method that's static and no return to execute a code using or not the parameters.
      * @param args The params that's possible to use on a Java Execution Program by command-line
-     *             For example: java -jar "some arguments"
+     *             For example: java -jar class and "some arguments"
      */
     public static void main(String[] args) {
 
