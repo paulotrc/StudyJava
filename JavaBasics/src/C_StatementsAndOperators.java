@@ -32,6 +32,10 @@ public class C_StatementsAndOperators {
             System.out.println("It's false.");
         }
 
+        //And Ternary Operator
+        String toPrint = test ? "It's true." : "It's false.";
+        System.out.println(toPrint);
+
         int pickOne = 10;
         int pickTwo = 20;
         int pickThree = 8;
@@ -69,8 +73,6 @@ public class C_StatementsAndOperators {
 
         resultEq = pickThree < pickOne && pickThree < pickTwo;
         System.out.println("11 " +resultEq);
-
-
 
 
 
