@@ -75,6 +75,18 @@ public class C_StatementsAndOperators {
         System.out.println("11 " +resultEq);
 
 
+        //When we need to compare Objects we always use .equals to do it
+        String exampleA = new String("Object");
+        String exampleB = new String("Object");
+        String sameExampleA = exampleA;
+
+        boolean test1 = exampleA == exampleB;      // false, exampleA and exampleB are not the same object but have the same content. This will try to compare the memory address
+        boolean test2 = exampleA.equals(exampleB); // true, exampleA and example has the same content and the implementation of equals test this
+        boolean test3 = exampleA == sameExampleA;  // true, example A and sameExampleA are the same object. One are created and another is the copy. They have the same memory address.
+
+        System.out.println(test1);
+        System.out.println(test2);
+        System.out.println(test3);
 
     }
 }
