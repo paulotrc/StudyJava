@@ -20,7 +20,7 @@ public class A_HelloWorld {
 
         //Just use of print without break line;
         System.out.print("Hello World");
-
+        
         //Just breaking a line on console
         System.out.println();
 
@@ -31,7 +31,7 @@ public class A_HelloWorld {
         System.out.printf("There is a %d chars in Hello World", 11);
         System.out.println();
 
-        System.out.printf("There is no poiting float number like %f to define how many chars are in Hello World", 2.5f);
+        System.out.printf("There is a float number like %f to define how many chars are in Hello World", 2.5f);
         System.out.println();
 
         System.out.printf("There is a doubt about this is %b or %b in a simple Hello World", true, false);

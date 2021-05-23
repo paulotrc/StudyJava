@@ -5,6 +5,8 @@
  *     http://www.apache.org/licenses/LICENSE-2.0
  */
 
+import com.sun.org.apache.xpath.internal.operations.Bool;
+
 /**
  * Class to demonstrate the about Variables and Types in Java
  */
@@ -17,7 +19,7 @@ public class B_VariablesAndTypes {
      */
     public static void main(String[] args) {
 
-        //Primitive valiables
+        //Primitive variables
 
         byte oneByte = 0;
         short oneShort = 01;
@@ -39,15 +41,15 @@ public class B_VariablesAndTypes {
 
 
         //Object variables
-        Byte otherOneByte = 0;
-        Short otherOneShort = 01;
-        Integer otherOneInt = 1234;
-        Long otherOneLong = 0L;
-        Float otherOneFloat = 0F;
-        Double otherOneDouble = 1.5;
-        Character otherOneChar = '0';
-        Boolean otherOneBoolean = true;
-        String oneString = "Test";
+        Byte otherOneByte = new Byte("0");
+        Short otherOneShort = new Short("01");
+        Integer otherOneInt = new Integer("1234");
+        Long otherOneLong = new Long("0");
+        Float otherOneFloat = new Float(0F);
+        Double otherOneDouble = new Double(1.5);
+        Character otherOneChar = new Character('0');
+        Boolean otherOneBoolean = new Boolean(true);
+        String oneString = new String("Test");
 
         System.out.println(otherOneByte);
         System.out.println(otherOneShort);
